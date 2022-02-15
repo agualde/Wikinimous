@@ -1,0 +1,8 @@
+<h1>
+<%= @article.title %>
+<ul class="edit-icons">
+<li><%= link_to "✏️", edit_article_path, class: :btn  %></li>
+<li><%= link_to "🗑️", article_path, method: :delete, data: { confirm: "Are you sure?" }, class: :btn %></li>
+</ul>
+</h1>
+<p><%= @article.content %></p>

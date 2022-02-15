@@ -1,0 +1,29 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  font-size: larger;
+}
+
+#nav-bar h1 {
+  font-weight: lighter;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.edit-icons li{
+  display: inline;
+  text-decoration: none;
+}
